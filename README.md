@@ -2,7 +2,7 @@
 
 This project builds a spam email classification pipeline using the **SpamAssassin** dataset and a **Multinomial Naive Bayes** classifier. It demonstrates text preprocessing, feature extraction via Bag-of-Words and TF-IDF, and classification evaluation with scikit-learn.
 
-## 🚀 Features
+## Features
 
 - Load and explore the [SpamAssassin dataset](https://huggingface.co/datasets/talby/spamassassin) via HuggingFace Datasets
 - Email text preprocessing (HTML tag removal, email header stripping, etc.)
@@ -13,7 +13,7 @@ This project builds a spam email classification pipeline using the **SpamAssassi
   - Confusion matrix
   - Classification report
 
-## 🧰 Requirements
+## Requirements
 
 Make sure you have the following Python packages installed:
 
@@ -21,7 +21,7 @@ Make sure you have the following Python packages installed:
 pip install scikit-learn pandas numpy matplotlib seaborn datasets huggingface_hub
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 spam_classifier/
@@ -29,12 +29,12 @@ spam_classifier/
 ├── README.md                 # Project description and instructions
 ```
 
-## 📝 Dataset
+## Dataset
 
 - **Source**: [SpamAssassin Dataset on HuggingFace](https://huggingface.co/datasets/talby/spamassassin)
 - **Labels**: `1` for spam, `0` for ham
 
-## 🧪 Example Usage
+## Example Usage
 
 The notebook walks through the following:
 
@@ -45,7 +45,7 @@ The notebook walks through the following:
 5. Train Naive Bayes classifier
 6. Evaluate and visualize results
 
-## 📊 Output Preview
+## Output Preview
 
 - Model accuracy and precision-recall report
 - Confusion matrix heatmap via seaborn
