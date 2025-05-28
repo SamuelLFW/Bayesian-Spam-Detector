@@ -25,7 +25,7 @@ pip install scikit-learn pandas numpy matplotlib seaborn datasets huggingface_hu
 
 ```
 spam_classifier/
-├── spam_classifier.ipynb     # Main notebook for preprocessing, training, and evaluation
+├── main.ipynb     # Main notebook for preprocessing, training, and evaluation
 ├── README.md                 # Project description and instructions
 ```
 
